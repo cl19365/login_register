@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../images/2-0\(2\)bg.png");
+    background-repeat: no-repeat;
+    background-size: 1920px 970px;
+}
+.f{
+    position: relative;
+}
+.f>div,.f .cl_body{
+    position: absolute;
+}
+.cl_top{
+    left: 185px;
+    top: 39px;
+}
+.cl_body{
+    height: 600px;
+    width: 553px;
+    background-color: rgba(0, 0, 0, 0.5);
+    left: 208px;
+    top: 200px;
+    border-radius: 10px;
+}
+.cl_body>.top{
+    width: 146px;
+    height: 42px;
+    margin: auto;
+    margin-top: 46px;
+}
+.cl_body>.top>*{
+    color: rgb(255, 255, 255);
+}
+.cl_body>.top>h1{
+    font-size: 25px;
+    text-align: center;
+}
+.cl_body>.top>p{
+    font-size: 15px;
+}
+
+/* ----------------------------------------------------------------------- */
+.cl_body>.body{
+    margin: auto;
+}
+.cl_body>.body>.input{
+    height: 50px;
+    width: 441px;
+    margin-top: 26px;
+}
+.cl_body>.body{
+    height: 300px;
+    width: 441px;
+    margin-top: 46px;
+}
+.cl_body>.body>.input *{
+    float: left;
+}
+.cl_body>.body>.input input{
+    width: 315px;
+    height: 30px;
+    color: #fff;
+    font-size: 16px;
+}
+.cl_body>.body>.input>span{
+    width: 90px;
+    line-height: 50px;
+    color: #fff;
+}
+.cl_body>.body>.input>span>span{
+    width: 70px;
+    line-height: 50px;
+    text-align: justify;
+    text-align-last: justify;
+    color: #fff;
+    float: left;
+}
+.cl_body>.body>.input input::-webkit-input-placeholder{
+    font-size: 16px;
+    color: #fff;
+}
+.cl_body>.body>.input input{
+    background: rgba(0, 0, 0, 0);
+    border: none;
+    outline:medium;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.cl_body>.body>.input>div{
+    height: 50px;
+    width: 341px;
+    border-radius: 8px;
+    background-color: rgba(255, 255, 255, 0.199);
+}
+.cl_body>.body>.name{
+    margin-top: 0;
+}
+.cl_repass>div:hover,#login:hover{
+    cursor: pointer;
+}
+.cl_repass{
+    width: 400px;
+    height: 18px;
+    font-size: 10px;
+    color: #fff;
+    position: relative;
+    margin-top: 25px;
+}
+.cl_repass img{
+    width: 13px;
+    opacity: 0;
+}
+.cl_repass>div{
+    position: absolute;
+    float: left;
+}
+.cl_repass>div:first-child{
+    width: 13px;
+    height: 13px;
+    margin-right: 10px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+}
+.cl_repass>div:last-child{
+    font-size: 13px;
+    left: 25px;
+    top: -2px;
+}
+.bottom{
+    height: 85px;
+    width: 440px;
+    margin: auto;
+    margin-top: 55px;
+}
+.bottom>input{
+    width: 432px;
+    height: 50px;
+    background-image: linear-gradient(to right , #2525D2, #49B4FE);
+    color: #fff;
+    font-size: 22px;
+    border: 0;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+.bottom>span{
+    color: #fff;
+    font-size: 13px;
+    margin-left: 328px;
+}
+.bottom>a{
+    color: #3780B0;
+    font-size: 13px;
+    text-decoration: none;
+}
+/* ---------------------------------------------------------------------------- */
+.cl_bottom{
+    position: relative;
+    margin-left: 1500px;
+    margin-top: 65px;
+}
+.cl_bottom>a{
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+}
+.cl_bottom>img{
+    width: 9px;
+    position: absolute;
+    top: 7px;
+    left: 110px;
+}

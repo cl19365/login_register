@@ -1,0 +1,90 @@
+
+.cl_bottom>div{
+    position: absolute;
+    height: 245px;
+    width: 500px;
+    margin: auto;
+    top: 123px;
+    left: 750px;
+}
+.cl_bottom .cl_bottom_top{
+    margin: 0;
+    font-size: 20px;
+}
+.cl_bottom_body{
+    margin-top: 40px;
+}
+.cl_bottom_body>.cl_d1{
+    margin-bottom: 24px;
+    background-color: #E5EBFF;
+    border-radius: 3px;
+    height: 51px;
+}
+.cl_bottom_body input{
+    height: 30px;
+    width: 430px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    outline:medium;
+}
+.cl_bottom_body img:first-child{
+    width: 25px;
+}
+.cl_img{
+    float: left;
+    width: 25px;
+    margin-left: 23px;
+    margin-top: 12px;
+}
+#checkbox{
+    width: 10px;
+    height: 10px;
+    margin-top: 4px;
+}
+#checkbox+label{
+    left: 30px;
+}
+.cl_repass *:hover{
+    cursor: pointer;
+}
+.cl_repass{
+    width: 376px;
+    height: 18px;
+    font-size: 10px;
+    position: relative;
+    margin-bottom: 15px;
+    margin-top: 32px;
+}
+
+.cl_repass>*{
+    position: absolute;
+    float: left;
+}
+
+.cl_bottom_bottom{
+    margin-top: 90px;
+}
+.cl_bottom_bottom>input:hover{
+    cursor: pointer;
+}
+#confirm{
+    background-image: linear-gradient(to right , #2525D2, #49B4FE);
+    color: #fff;
+    font-size: 22px;
+    width: 225px;
+    height: 40px;
+    border: 0;
+    border-radius: 3px;
+    margin-right: 45px;
+}
+#cancel{
+    background-color: #E5EBFF;
+    color: #98AFFF;
+    font-size: 22px;
+    width: 225px;
+    height: 40px;
+    border: 0;
+    border-radius: 3px;
+}

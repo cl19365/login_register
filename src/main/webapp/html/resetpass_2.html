@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>专业技术职称评审系统</title>
+    <link rel="stylesheet" href="../css/resetpassbackground.css">
+    <link rel="stylesheet" href="../css/resetpass_2.css">
+</head>
+
+<body>
+    <div class="cl_top">
+        <img src="../images/0-logo(zc).png" alt="">
+        <a href="resetpass_1.html"><b>重置密码</b></a>
+        <a href="#"><b>反馈问题</b></a>
+    </div>
+    <div class="cl_body">
+        <div>
+            <div>
+                <div class="numimg current"><img src="../images/1-1-1(1).png" alt=""></div>
+                <div><b>确认账号</b></div>
+            </div>
+            <div class="line">
+            </div>
+            <div>
+                <div class="numimg"><img src="../images/1-1-1（2）.png" alt=""></div>
+                <div><b>验证账号</b></div>
+            </div>
+            <div class="line linecurrent"></div>
+            <div>
+                <div class="numimg"><img src="../images/1-1-0(6).png" alt=""></div>
+                <div><b>重置密码</b></div>
+            </div>
+            <div class="line"></div>
+            <div>
+                <div class="numimg"><img src="../images/1-1-0(7).png" alt=""></div>
+                <div><b>完成重置</b></div>
+            </div>
+        </div>
+    </div>
+    <form action="../ResePassPhoneServlet" method="post" onsubmit="return chkform()">
+    <div class="cl_bottom">
+        <div>
+            <div class="cl_bottom_top">请输入与您账号有关联的电话号码，我们会给您发送验证码来重置密码：</div>
+            <div class="cl_bottom_body">
+                <div class="cl_d1">
+                    <div class="cl_img"><img src="../images/1-1-0(8).png" alt=""></div>
+                    <input type="text" name="uname" id="cl_uname" placeholder="请输入已绑定的手机号">
+                </div>
+                <div class="cl_d2">
+                    <div style="width: 250px;" class="cl_d1">
+                        <div class="cl_img"><img src="../images/1-1-1(4).png" alt=""></div>
+
+                        <input type="text" name="verify" id="cl_verify" placeholder="请输入验证码">
+                    </div>
+                    <input type="button" value="获取验证码" style="width: 120px;" class="cl_d1">
+                </div>
+
+            </div>
+            <div class="cl_bottom_bottom">
+                <input type="submit" value="下一步" id="confirm">
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="../js/resetpass_2.js"></script>
+
+</html>
