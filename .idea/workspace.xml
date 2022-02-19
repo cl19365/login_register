@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="login_register:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04d263f4-4d09-42ca-b63e-a81312c4a2eb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/db/jobtitleevaluation.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/dao/ApplicantDao.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/dao/impl/ApplicantDaoImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/dao/impl/test.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/service/Service.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/service/impl/ServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csist/servlets/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/servlets/RegistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csist/servlets/RegistServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/servlets/ResePassPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csist/servlets/ResePassPhone.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/servlets/ResetPassServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csist/servlets/ResetPassServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/util/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csist/util/JDBCUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/prop.Properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jobtitleevaluation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jobtitleevaluation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jobtitleevaluation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jobtitleevaluation.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/bean/Applicant.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/dao/ApplicantDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/dao/impl/ApplicantDaoImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/dao/impl/test.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/servlets/LoginServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/servlets/RegistServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/servlets/ResePassPhone.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/servlets/ResetPassServlet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/util/JDBCUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/util/Md5Encrypt.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/util/OPUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/clojure-1.7.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/java.jdbc-0.7.12.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/javax.el-api-3.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/jdk-serializable-functional-1.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.49-bin.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.27.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-annotations-api-10.1.0-M8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-api-10.1.0-M8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-catalina-10.1.0-M8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-coyote-10.1.0-M8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-el-api-10.1.0-M8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-jaspic-api-10.1.0-M8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-jni-10.1.0-M8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-jsp-api-10.1.0-M8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-juli-10.1.0-M8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-servlet-api-10.1.0-M8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-util-10.1.0-M8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-util-scan-10.1.0-M8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/error_resetpass_2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/login.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/register.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/resetpass_1.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/resetpass_2.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/resetpass_3.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/resetpass_4.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/resetpassbackground.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/html/error_resetpass_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/html/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/html/register.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/html/resetpass_1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/html/resetpass_2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/html/resetpass_3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/html/resetpass_4.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/0-bg(top).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/0-logo(dl).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/0-logo(sqr).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/0-logo(zc).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-0(1)bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-0(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-0(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-0(4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-0(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-0(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-0(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-0(4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-0(6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-0(7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-0(8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-1(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-1(4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-1（2）.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-1（3）.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-2(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-2(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-2(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-3(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-3(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-3(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-4(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-4(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-4(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/2-0(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/2-0(2)bg.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(1)_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(11).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(12).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(13).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(14).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(15).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(16).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(17).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(18).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(19).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(20).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(21).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(22).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(23).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(24).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(25).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(26).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(27).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(28).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(9).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-0(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-1(0)top.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-1(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-1(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-1(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-10-0(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-2(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-3(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-3(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-4(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-5(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-6(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-8(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-9-1(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-9-2(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-0(1）.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-0(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-0(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-0(4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-0(5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-1(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-2(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-3(1).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-4(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-4(2).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-4(3).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-4(4).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-4(5).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-4(6).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-4(7).jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(11).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(12).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(9).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-1(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-1(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-1(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-0(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-0(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-0(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-0(4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-0(5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-0(6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-1(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-1(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-1(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-1(4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-1(5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-1(6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-1(7)_03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(10).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(11).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(6).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(7).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(8).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(9).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0（3）.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-2(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/9-0(1).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/9-0(2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/9-0(3).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/9-0(4).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/9-0(5).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/刷新.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/勾.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/js/jquery-3.6.0.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/js/login.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/js/register.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/js/resetpass_1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/js/resetpass_2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/js/resetpass_3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/js/resetpass_4.js" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/csist/dao/impl/ApplicantDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/jobtitleevaluation.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/com/csist/servlets/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/csist/servlets/RegistServlet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/csist/util/JDBCUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/csist/service/impl/ServiceImpl.java" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="486" />
+    <option name="y" value="68" />
+    <option name="width" value="1400" />
+    <option name="height" value="1000" />
+  </component>
+  <component name="ProjectId" id="25HzzE4df373YajXEb8pBDxwxvS" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="csist" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="csist" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="csist" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="csist" type="462c0819:PsiDirectoryNode" />
+              <item name="po" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="csist" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="csist" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="csist" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="html" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="Assessors" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="Assessors" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="Assessors" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="login_register" type="b2602c69:ProjectViewProjectNode" />
+              <item name="login_register" type="462c0819:PsiDirectoryNode" />
+              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="Assessors" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="classes" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639533529154" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.49-bin.jar!/" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\cl\Maven\p\login_register\src\main\resources" />
+      <recent name="D:\cl\Maven\p\login_register\target\Assessors\WEB-INF\classes" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\cl\Maven\p\login_register\src\main\webapp\WEB-INF" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/html/login.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="resetpass_1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/html/resetpass_1.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.44" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="login_register:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_login_register" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49928" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="login_register:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.login.html" />
+      <item itemvalue="JavaScript Debug.resetpass_1.html" />
+      <item itemvalue="Tomcat Server.Unnamed" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.resetpass_1.html" />
+        <item itemvalue="JavaScript Debug.login.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04d263f4-4d09-42ca-b63e-a81312c4a2eb" name="Default Changelist" comment="" />
+      <created>1639527956991</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1639527956991</updated>
+      <workItem from="1639527958311" duration="5666000" />
+      <workItem from="1645199061888" duration="82000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="5666000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <layout>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="UI Designer" order="1" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info id="Designer" order="5" />
+      <window_info active="true" content_ui="combo" id="Project" order="6" visible="true" weight="0.24413647" />
+      <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Spring" order="0" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="3" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Application Servers" order="7" weight="0.16859123" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="10" weight="0.28416485" />
+      <window_info anchor="bottom" id="Debug" order="11" weight="0.3995381" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" />
+      <window_info anchor="right" id="Capture Analysis" order="0" />
+      <window_info anchor="right" id="Maven Projects" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="right" id="Theme Preview" order="4" />
+      <window_info anchor="right" id="Palette" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/csist/mapper/impl/test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jobtitleevaluation.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="603">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/csist/util/OPUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk1.8.0_181/src.zip!/java/sql/DriverManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="648" selection-start-line="648" selection-end-line="648" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/csist/util/Md5Encrypt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="e#1168#1169#0" expanded="true" />
+            <element signature="e#1197#1198#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk1.8.0_181/src.zip!/java/security/MessageDigest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="166" selection-start-line="166" selection-end-line="166" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk1.8.0_181/src.zip!/java/security/Security.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="669" selection-start-line="669" selection-end-line="669" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk1.8.0_181/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="935" selection-start-line="935" selection-end-line="935" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../../../../../../../Program Files/Java/jdk1.8.0_181/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="1465" selection-start-line="1465" selection-end-line="1465" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/prop.Properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/prop.Properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/csist/servlets/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/csist/util/JDBCUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="28" column="65" selection-start-line="28" selection-start-column="65" selection-end-line="28" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1104">
+          <caret line="48" column="20" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/csist/service/ServiceCl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="55" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/register.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/csist/service/impl/ServiceClImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="54" />
+          <folding>
+            <element signature="e#819#820#0" expanded="true" />
+            <element signature="e#885#886#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/csist/mapper/ApplicantMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/resetpass_1.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="17" column="10" lean-forward="true" selection-start-line="12" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/csist/mapper/impl/ApplicantMapperImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="57" column="28" lean-forward="true" selection-start-line="57" selection-start-column="28" selection-end-line="57" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/csist/po/Applicant.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/html/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="14" column="24" selection-start-line="14" selection-start-column="24" selection-end-line="14" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/csist/servlets/RegistServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="59" selection-start-line="59" selection-end-line="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/csist/servlets/ResePassPhone.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="44" column="35" selection-start-line="44" selection-start-column="30" selection-end-line="44" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/csist/servlets/ResetPassServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="51" column="17" selection-start-line="51" selection-start-column="17" selection-end-line="51" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>login_register:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>login_register</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: c3p0:c3p0:0.9.1.2</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

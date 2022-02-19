@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>专业技术职称评审系统</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+
+<body>
+
+    <div class="cl_f">
+        <div class="cl_title">
+            <img src="../images/0-logo(dl).png" alt="">
+        </div>
+        <form action="../login" method="post" onsubmit="return chkform()">
+        <div class="cl_body">
+            <div class="cl_body_top">
+                <h2 class="cl_text cl_title_cn">欢迎登陆</h2>
+                <p class="cl_text cl_title_en">Welcom to login</p>
+            </div>
+            <div class="cl_body_body">
+                <div class="cl_d1">
+                    <div class="cl_img"><img src="../images/1-0(2).png" alt=""></div>
+                    <input type="text" name="uname" id="cl_uname">
+                </div>
+                <div class="cl_d2">
+                    <div class="cl_img"><img src="../images/1-0(3).png" alt=""></div>
+                    <input type="password" name="password" id="cl_password">
+                </div>
+                <div class="cl_d3">
+                    <div style="width: 250px;">
+                        <div class="cl_img"><img src="../images/1-0(4).png" alt=""></div>
+
+                        <input type="text" name="verify" id="cl_verify" placeholder="请输入验证码">
+                    </div>
+                    <div></div>
+                    <div>
+                        <div class="cl_img"><img src="../images/刷新.png" alt="" style="width: 18px;margin-top: 3px;">
+                        </div>
+                        <a href="#">换一张</a>
+                    </div>
+                </div>
+            </div>
+            <div class="cl_body_bottom">
+                <div class="cl_repass">
+                    <div><img src="../images/勾.png" alt=""></div>
+                    <div>记住密码</div>
+                </div>
+                <input type="submit" value="登录" id="login">
+                <div>
+                    <a href="resetpass_1.html">忘记密码</a><span class="cl_span1">？</span>
+                    <span>没有账号？去</span><a href="register.html">注册</a>
+                </div>
+            </div>
+        </div>
+    </form>
+        <div class="cl_bottom">
+            <span>帮助</span>
+            <span>隐私</span>
+            <span>条款</span><br>
+            <span>chaiugyeo@四川有限公司</span>
+        </div>
+    </div>
+</body>
+<script src="../js/jquery-3.6.0.min.js"></script>
+<script src="../js/login.js"></script>
+
+</html>
