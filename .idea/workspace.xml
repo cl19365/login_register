@@ -9,224 +9,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="04d263f4-4d09-42ca-b63e-a81312c4a2eb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/db/jobtitleevaluation.sql" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/dao/ApplicantDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/dao/impl/ApplicantDaoImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/dao/impl/test.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/service/Service.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/service/impl/ServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/servlets/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csist/servlets/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/servlets/RegistServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csist/servlets/RegistServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/servlets/ResePassPhone.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csist/servlets/ResePassPhone.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/servlets/ResetPassServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csist/servlets/ResetPassServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/csist/util/JDBCUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/csist/util/JDBCUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/prop.Properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jobtitleevaluation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jobtitleevaluation.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/jobtitleevaluation.sql" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jobtitleevaluation.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/bean/Applicant.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/dao/ApplicantDao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/dao/impl/ApplicantDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/dao/impl/test.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/servlets/LoginServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/servlets/RegistServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/servlets/ResePassPhone.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/servlets/ResetPassServlet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/util/JDBCUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/util/Md5Encrypt.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/classes/com/csist/util/OPUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/clojure-1.7.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/java.jdbc-0.7.12.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/javax.el-api-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/jdk-serializable-functional-1.9.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/jstl-1.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.49-bin.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-8.0.27.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/protobuf-java-3.11.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-annotations-api-10.1.0-M8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-api-10.1.0-M8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-catalina-10.1.0-M8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-coyote-10.1.0-M8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-el-api-10.1.0-M8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-jaspic-api-10.1.0-M8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-jni-10.1.0-M8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-jsp-api-10.1.0-M8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-juli-10.1.0-M8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-servlet-api-10.1.0-M8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-util-10.1.0-M8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/lib/tomcat-util-scan-10.1.0-M8.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/error_resetpass_2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/login.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/register.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/resetpass_1.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/resetpass_2.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/resetpass_3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/resetpass_4.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/css/resetpassbackground.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/html/error_resetpass_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/html/login.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/html/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/html/resetpass_1.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/html/resetpass_2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/html/resetpass_3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/html/resetpass_4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/0-bg(top).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/0-logo(dl).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/0-logo(sqr).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/0-logo(zc).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-0(1)bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-0(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-0(3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-0(4).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-0(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-0(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-0(3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-0(4).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-0(6).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-0(7).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-0(8).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-1(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-1(4).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-1（2）.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-1（3）.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-2(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-2(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-2(3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-3(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-3(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-3(3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-4(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-4(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/1-1-4(3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/2-0(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/2-0(2)bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(1)_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(10).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(11).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(12).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(13).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(14).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(15).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(16).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(17).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(18).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(19).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(20).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(21).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(22).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(23).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(24).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(25).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(26).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(27).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(28).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(4).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(5).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(6).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(7).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(8).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/3-0(9).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-0(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-1(0)top.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-1(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-1(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-1(3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-10-0(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-2(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-3(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-3(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-4(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-5(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-6(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-8(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-9-1(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/4-9-2(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-0(1）.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-0(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-0(3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-0(4).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-0(5).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-1(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-2(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-3(1).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-4(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-4(2).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-4(3).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-4(4).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-4(5).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-4(6).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/5-4(7).jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(10).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(11).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(12).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(4).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(5).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(6).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(7).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(8).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-0(9).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-1(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-1(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/6-1(3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-0(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-0(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-0(3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-0(4).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-0(5).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-0(6).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-1(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-1(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-1(3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-1(4).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-1(5).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-1(6).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/7-1(7)_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(10).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(11).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(4).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(5).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(6).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(7).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(8).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0(9).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-0（3）.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/8-0-2(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/9-0(1).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/9-0(2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/9-0(3).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/9-0(4).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/9-0(5).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/刷新.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/images/勾.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/js/jquery-3.6.0.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/js/login.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/js/register.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/js/resetpass_1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/js/resetpass_2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/js/resetpass_3.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/login_register-1.0-SNAPSHOT/js/resetpass_4.js" beforeDir="false" />
+    <list default="true" id="04d263f4-4d09-42ca-b63e-a81312c4a2eb" name="Default Changelist" comment="提交">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Assessors/WEB-INF/classes/prop.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/Assessors/WEB-INF/classes/prop.Properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/Assessors/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/Assessors/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/prop.Properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/prop.Properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -441,18 +252,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1639533529154" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp/WEB-INF/lib/mysql-connector-java-5.1.49-bin.jar!/" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.proportion" value="0.1484375" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="advanced.settings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -464,10 +280,16 @@
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Unnamed">
-    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/html/login.html">
+    <configuration name="login.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/login_register_war_exploded/html/login.html">
       <method v="2" />
     </configuration>
-    <configuration name="resetpass_1.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8080/html/resetpass_1.html">
+    <configuration name="login.html (2)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/login_register/src/main/webapp/html/login.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:8080/html/login.html">
+      <method v="2" />
+    </configuration>
+    <configuration name="resetpass_1.html" type="JavascriptDebugType" nameIsGenerated="true" uri="http://localhost:8080/html/resetpass_1.html">
       <method v="2" />
     </configuration>
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.44" ALTERNATIVE_JRE_ENABLED="false">
@@ -475,7 +297,7 @@
       <deployment>
         <artifact name="login_register:war exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/login_register_war_exploded" />
           </settings>
         </artifact>
       </deployment>
@@ -561,12 +383,14 @@
     <list>
       <item itemvalue="JavaScript Debug.login.html" />
       <item itemvalue="JavaScript Debug.resetpass_1.html" />
+      <item itemvalue="JavaScript Debug.login.html (1)" />
+      <item itemvalue="JavaScript Debug.login.html (2)" />
       <item itemvalue="Tomcat Server.Unnamed" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JavaScript Debug.resetpass_1.html" />
-        <item itemvalue="JavaScript Debug.login.html" />
+        <item itemvalue="JavaScript Debug.login.html (1)" />
+        <item itemvalue="JavaScript Debug.login.html (2)" />
       </list>
     </recent_temporary>
   </component>
@@ -583,7 +407,19 @@
       <updated>1639527956991</updated>
       <workItem from="1639527958311" duration="5666000" />
       <workItem from="1645199061888" duration="82000" />
+      <workItem from="1645433922295" duration="1577000" />
+      <workItem from="1645441513488" duration="3337000" />
+      <workItem from="1645618623634" duration="257000" />
+      <workItem from="1646131461689" duration="2491000" />
     </task>
+    <task id="LOCAL-00001" summary="提交">
+      <created>1646133118372</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1646133118372</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -639,6 +475,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="提交" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/com/csist/mapper/impl/test.java">
